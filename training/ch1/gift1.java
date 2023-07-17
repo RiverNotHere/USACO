@@ -14,7 +14,7 @@ public class gift1 {
     StringTokenizer st;
 
     int n = Integer.parseInt(f.readLine());
-    LinkedHashMap<String, Integer> moneys = new LinkedHashMap<>();
+    Map<String, Integer> moneys = new LinkedHashMap<>();
 
     for (int i = 0; i < n; i++) {
       moneys.put(f.readLine(), 0);
